@@ -1,0 +1,134 @@
+.app-main {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  .point-list {
+    border : 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width : 50%;
+
+    .point-item:hover {
+      background-color: lightgray;
+      transition: 0.3s;
+    }
+
+    .point-item {
+
+
+      cursor: pointer;
+      border-bottom: 1px solid gray;
+
+      padding : 10px;
+
+      display: flex;
+      gap : 10px;
+      align-items: flex-end;
+      justify-content: space-between;
+
+      .endpoint-data {
+        .country-div {
+          display: flex;
+          align-items: center;
+          gap : 10px;
+
+          padding-bottom: 10px;
+        }
+
+
+        p {
+          margin: 0px;
+        }
+        .country {
+          font-size: 16px;
+          font-family: bold;
+        }
+
+        .isp {
+          font-size: 14px;
+        }
+      }
+
+      .endpoint-ip {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .tick-img {
+          width: 24px;
+          height : 24px;
+        }
+      }
+    }
+  }
+
+  .map-main {
+    border : 2px solid lightgray;
+    height : 360px;
+    overflow: hidden;
+    border-radius: 5px;
+
+    .map-container {
+      width: 520px;
+    }
+  }
+
+
+  .data-info {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+    width: calc(50% - 20px);
+
+    .data-info-header {
+
+      margin-top: 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid lightgray;
+
+      p {
+        margin: 0px;
+      }
+
+      display: flex;
+      align-items: flex-start;
+      gap : 10px;
+    }
+  }
+
+  .agm-info-window {
+    background-color: #ffffffc2;
+    color: black;
+    font-weight: bold;
+
+    padding: 10px;
+
+    .agm-info-header {
+      display: flex;
+      gap: 15px;
+      align-items: flex-start;
+
+      p {
+        margin: 0px;
+      }
+
+      padding-bottom: 10px;
+      border-bottom: 2px solid lightgray;
+    }
+
+    .agm-info-body {
+      padding-top: 10px;
+      color: blue;
+      text-align: right;
+    }
+  }
+}
+agm-map {
+  height: 500px;
+  width: 100%;
+}
+

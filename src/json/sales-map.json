@@ -1,0 +1,20 @@
+{
+  "salesmap" : [{
+    "endpoint": "185.155.103.59",
+    "country_code": "US",
+    "ISP": "virgin of woman",
+    "is_block": 1,
+    "longitude": 4.8995,
+    "latitude": 4.8995,
+    "ping_time": 532
+  },
+  {
+    "endpoint": "185.140.12.6",
+    "country_code": "US",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 3.8995,
+    "latitude": 4.8995,
+    "ping_time": 323
+  }]
+}

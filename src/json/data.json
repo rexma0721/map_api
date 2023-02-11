@@ -1,0 +1,254 @@
+[
+  {
+    "endpoint": "185.155.103.59",
+    "country_code": "US",
+    "ISP": "virgin of woman",
+    "is_block": 1,
+    "longitude": 4.8995,
+    "Latitude": 4.8995,
+    "ping_time": 532
+  },
+  {
+    "endpoint": "185.140.12.6",
+    "country_code": "US",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 3.8995,
+    "Latitude": 4.8995,
+    "ping_time": 323
+  },
+  {
+    "endpoint": "185.140.13.45",
+    "country_code": "AF",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 43.8995,
+    "Latitude": 13.8995,
+    "ping_time": 256
+  },
+  {
+    "endpoint": "185.128.24.87",
+    "country_code": "DZ",
+    "ISP": "virgin of woman",
+    "is_block": 1,
+    "longitude": 67.8,
+    "Latitude": 45.8995,
+    "ping_time": 789
+  },
+  {
+    "endpoint": "185.121.45.12",
+    "country_code": "VG",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 78.25,
+    "Latitude": 26.24,
+    "ping_time": 256
+  },
+  {
+    "endpoint": "185.44.18.17",
+    "country_code": "CF",
+    "ISP": "virgin of woman",
+    "is_block": 1,
+    "longitude": 25.6,
+    "Latitude": 84.5,
+    "ping_time": 478
+  },
+  {
+    "endpoint": "185.58.15.17",
+    "country_code": "KM",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 19.25,
+    "Latitude": 65.23,
+    "ping_time": 851
+  },
+  {
+    "endpoint": "185.65.121.61",
+    "country_code": "ER",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 19.32,
+    "Latitude": 32.25,
+    "ping_time": 356
+  },
+  {
+    "endpoint": "185.23.16.45",
+    "country_code": "GI",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 89.21,
+    "Latitude": 65.12,
+    "ping_time": 156
+  },
+  {
+    "endpoint": "185.252.1.13",
+    "country_code": "IR",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 121.5,
+    "Latitude": 100.23,
+    "ping_time": 456
+  },
+  {
+    "endpoint": "185.265.18.24",
+    "country_code": "JP",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 98.32,
+    "Latitude": 68.32,
+    "ping_time": 323
+  },
+  {
+    "endpoint": "185.26.18.17",
+    "country_code": "LR",
+    "ISP": "virgin of woman",
+    "is_block": 1,
+    "longitude": 100.21,
+    "Latitude": 45.32,
+    "ping_time": 221
+  },
+  {
+    "endpoint": "185.87.65.231",
+    "country_code": "MV",
+    "ISP": "virgin of woman",
+    "is_block": 1,
+    "longitude": 23.54,
+    "Latitude": 121.8,
+    "ping_time": 323
+  },
+  {
+    "endpoint": "185.154.45.91",
+    "country_code": "MA",
+    "ISP": "virgin of woman",
+    "is_block": 1,
+    "longitude": 97,
+    "Latitude": 35.6,
+    "ping_time": 125
+  },
+  {
+    "endpoint": "185.87.62.38",
+    "country_code": "NU",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 78.5,
+    "Latitude": 56.32,
+    "ping_time": 987
+  },
+  {
+    "endpoint": "185.65.78.3",
+    "country_code": "PY",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 64.56,
+    "Latitude": 78.23,
+    "ping_time": 652
+  },
+  {
+    "endpoint": "185.3.212.54",
+    "country_code": "RW",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 71.25,
+    "Latitude": 98.23,
+    "ping_time": 545
+  },
+  {
+    "endpoint": "185.234.12.123",
+    "country_code": "WS",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 18.65,
+    "Latitude": 19.64,
+    "ping_time": 123
+  },
+  {
+    "endpoint": "185.3.98.156",
+    "country_code": "NE",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 85.24,
+    "Latitude": 45.21,
+    "ping_time": 158
+  },
+  {
+    "endpoint": "185.140.12.6",
+    "country_code": "YT",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 19.8995,
+    "Latitude": 35.8995,
+    "ping_time": 65
+  },
+  {
+    "endpoint": "185.65.123.245",
+    "country_code": "ML",
+    "ISP": "virgin of woman",
+    "is_block": 1,
+    "longitude": 36.21,
+    "Latitude": 56.21,
+    "ping_time": 111
+  },
+  {
+    "endpoint": "185.23.98.54",
+    "country_code": "KZ",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 24.23,
+    "Latitude": 98.26,
+    "ping_time": 125
+  },
+  {
+    "endpoint": "185.25.24.16",
+    "country_code": "GL",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 25.11,
+    "Latitude": 66.56,
+    "ping_time": 323
+  },
+  {
+    "endpoint": "185.56.122.32",
+    "country_code": "CL",
+    "ISP": "virgin of woman",
+    "is_block": 1,
+    "longitude": 53.21,
+    "Latitude": 23.65,
+    "ping_time": 546
+  },
+  {
+    "endpoint": "185.45.121.63",
+    "country_code": "TD",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 56.145,
+    "Latitude": 13.56,
+    "ping_time": 323
+  },
+  {
+    "endpoint": "185.235.58.94",
+    "country_code": "BI",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 18.26,
+    "Latitude": 65.12,
+    "ping_time": 462
+  },
+  {
+    "endpoint": "185.23.65.25",
+    "country_code": "AZ",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 65.12,
+    "Latitude": 18.23,
+    "ping_time": 658
+  },
+  {
+    "endpoint": "185.2.13.212",
+    "country_code": "BT",
+    "ISP": "virgin of woman",
+    "is_block": 0,
+    "longitude": 35.21,
+    "Latitude": 121.36,
+    "ping_time": 257
+  }
+]

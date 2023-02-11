@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+
+  // /* Remove the X, close button */
+
+  .gm-style {
+    a {
+      img {
+        display: none !important;
+      }
+    }
+  }
+  .gm-style .gm-style-iw-tc::after {
+    background: none !important;
+    display: none !important;
+  }
+
+  .gm-style .gm-style-iw-c {
+    background: none !important;
+  }
+
+  .gm-ui-hover-effect {
+    display: none !important;
+  }
+
+  .gm-style-iw {
+    padding: 0 !important;
+    background-color: none !important;
+    overflow: none !important;
+  }
+
+  /* remove overflow scroll */
+  .gm-style-iw-d {
+    overflow: hidden !important;
+  }
+
+  .gm-svpc {
+    display: none !important;
+  }
+
+  .gmnoprint {
+    display: none !important;
+  }

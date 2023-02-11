@@ -1,0 +1,99 @@
+<div class="app-main">
+  <div class="point-list">
+    <div class="point-item" *ngFor="let point of points; let i = index" (click)="showEndpointInfo(point)">
+      <div class="endpoint-data">
+        <div class="country-div">
+          <flag [code]="point.country_code" [size]="'md'"></flag>
+          <p class="country">{{getCountryName(point.country_code)}}</p>
+        </div>
+        <p class="isp">ISP: {{point.ISP}}</p>
+        <p class="ping_time">Ping Time: {{point.ping_time}}</p>
+      </div>
+      <div class="endpoint-ip">
+        {{point.endpoint}}
+        <div class="tick-img">
+          <img src="{{point.is_block ? './assets/images/map-marker-disable.png' : './assets/images/map-marker-enable.png'}}" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="map-main">
+    <div class="map-container" >
+      <!-- <ejs-maps id='container' #maps style="display:block;" [layers]='layers'
+          (load)="load($event)" useGroupingSeparator="true" tooltipDisplayMode="Click" format='n'>
+        </ejs-maps> -->
+      <agm-map
+        [tilt]="0"
+        [restriction]="{
+          latLngBounds: {north: 85, south: -85, west: -180, east: 180},
+          strictBounds: false
+        }"
+        [mapTypeId]="'roadmap'"
+        [latitude]="ct_lat"
+        [longitude]="ct_lng"
+        [zoom]="zoom"
+        [disableDefaultUI]="false"
+        [styles]="Styles"
+        [backgroundColor]="'#fffff'"
+        [maxZoom]="zoom"
+        [minZoom]="zoom"
+        [mapDraggable]="false"
+      >
+
+          <agm-marker
+              *ngFor="let point of points; let i = index"
+              (mouseOver)="clickedMarker(point.country_code, i)"
+              (mouseOut)="current_opened_index = -1"
+              [latitude]="point.Latitude"
+              [longitude]="point.longitude"
+              [markerDraggable]="point.is_block ? true : false"
+              [iconUrl]="point.is_block ? './assets/images/map-marker-disable.png' : './assets/images/map-marker-enable.png'"
+          >
+
+            <agm-info-window
+              [isOpen]="isOpened(i)"
+            >
+              <div class="agm-info-window">
+                <div class="agm-info-header">
+                  <flag [code]="point.country_code" [size]="'md'"></flag>
+                  <div class="country-div">
+                    <p class="country-name">{{getCountryName(point.country_code)}}</p>
+                    <p class="isp">{{point.ISP}}</p>
+                  </div>
+
+                </div>
+                <div class="agm-info-body">
+                  {{point.endpoint}}
+                </div>
+              </div>
+            </agm-info-window>
+
+          </agm-marker>
+      </agm-map>
+
+    </div>
+  </div>
+  <!-- <div class="data-info" *ngIf="isShowDataInfo">
+    <button type="button" (click)="isShowDataInfo = !isShowDataInfo">Back to map view</button>
+
+    <div class="data-info-header">
+      <flag [code]="current_info.country_code" [size]="'md'"></flag>
+      <div class="country-div">
+        <p class="country-name">{{getCountryName(current_info.country_code)}}</p>
+        <p class="isp">{{current_info.ISP}}</p>
+      </div>
+    </div>
+
+    <div class="data-info-body">
+      <p>IP : {{current_info.endpoint}}</p>
+      <p>Ping Time : {{current_info.ping_time}}</p>
+      <p>Longitude : {{current_info.longitude}}</p>
+      <p>Latitude : {{current_info.Latitude}}</p>
+      <p>ISP : {{current_info.ISP}}</p>
+      <p>Blocked : {{current_info.is_block? "Yes" : "No"}}</p>
+    </div>
+  </div> -->
+
+</div>
+
+
